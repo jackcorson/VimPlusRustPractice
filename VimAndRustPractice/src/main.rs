@@ -1,3 +1,5 @@
+mod Exercise4;
+
 fn main() {
-    println!("Hello, world!");
+    Exercise4::setupRecursionPractice();
 }
