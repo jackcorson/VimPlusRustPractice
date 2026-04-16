@@ -8,7 +8,7 @@ pub fn setupRecursionPractice() {
     println!("The number at position {numFib} in the fib sequence is {fibNum}");
 }  
 
-pub fn factorial(num: i32) -> i32 {
+fn factorial(num: i32) -> i32 {
     if num == 0 {
         return 0;
     }
