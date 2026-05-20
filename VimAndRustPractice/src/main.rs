@@ -4,12 +4,15 @@ mod Exercise7;
 mod Exercise10;
 mod Exercise16;
 mod Exercise17;
+mod Exercise18;
 
-fn main() {
+#[tokio::main]
+async fn main() {
     // Exercise4::setupRecursionPractice();
     // Exercise6::setupStructPractice();
     // Exercise7::setupEnumPractice();
     // Exercise10::setupGenericPractice();
     // Exercise16::setupFileHandlingPractice();
-    Exercise17::setupConcurrencyPractice();
+    // Exercise17::setupConcurrencyPractice();
+    Exercise18::setupAsynchPractice().await;
 }
